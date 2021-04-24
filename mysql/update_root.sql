@@ -1,0 +1,3 @@
+CREATE USER IF NOT EXISTS 'zenha'@'%' IDENTIFIED BY 'zenha';
+
+GRANT ALL PRIVILEGES ON *.* TO 'zenha'@'%' IDENTIFIED BY 'zenha';
